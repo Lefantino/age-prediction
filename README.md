@@ -1,2 +1,9 @@
-# age-prediction
+# Предсказание возраста человека по фотографии
 nn, keras, resnet
+___
+В данном проекте строится модель, предсказывающая возраст человека по фотографии  
+Используется датасет из статьи:  
+http://people.ee.ethz.ch/~timofter/publications/Agustsson-FG-2017.pdf
+
+В оригинальной статье получено значение MAE=5.4, построенная в данном проекте модель имеет MAE=6 годам.
+![image](https://user-images.githubusercontent.com/109238063/218116932-e2e2c51d-1df4-47a3-957b-61f7b4b3e0e2.png)
